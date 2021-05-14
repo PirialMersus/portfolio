@@ -1,0 +1,18 @@
+.skillWrap{
+    width: 200px;
+    background-color: #ffffff;
+}
+.skillWrap img {
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.skillWrap p{
+    text-align: center;
+}
+.skillName {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
