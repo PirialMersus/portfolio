@@ -1,0 +1,26 @@
+.works{
+    background-color: #f1e2ff;
+}
+.worksWrapper{
+    padding: 50px 0;
+}
+.worksHeader{
+    height: 100px;
+    border: 1px solid;
+}
+.worksHeader h4{
+    text-align: center;
+
+}
+.worksContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid;
+
+}
+@media (max-width: 700px) {
+    .worksContent {
+        justify-content: center;
+    }
+}

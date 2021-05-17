@@ -1,0 +1,23 @@
+.skills{
+    background-color: #ddfee9;
+}
+.skills .skillsWrap{
+    padding: 50px 0;
+}
+.skillsHeader {
+    border: 1px solid #111;
+    height: 100px;
+}
+.skillsHeader h3{
+    text-align: center;
+}
+.skillsContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+    .skillsContent {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,31 @@
+.header {
+    background-color: #cfeaff;
+    padding: 20px;
+}
+
+.header .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul > li:not(:last-child) {
+    margin-right: 30px;
+}
+@media (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+    .header .headerContent {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,22 @@
+.works{
+    background-color: #f1e2ff;
+}
+.imgPlusButton{
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+.imgPlusButton img{
+    height: 200px;
+    width: 300px;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

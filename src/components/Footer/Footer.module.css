@@ -1,0 +1,25 @@
+.footer{
+    background-color: #ebffe4;
+    padding: 50px 0 10px;
+}
+.footerContent{
+    text-align: center;
+    border: 1px solid;
+}
+.footerContent h3 {
+    margin-bottom: 50px;
+}
+.socialNetworksIcons{
+    width: 280px;
+    height: 40px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.socialNetworksIcons img {
+    height: 40px;
+    width: 40px;
+    background-color: #d8d8d8;
+}
