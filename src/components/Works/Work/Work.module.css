@@ -11,6 +11,7 @@
     width: 300px;
 }
 .btn{
+    transition: background-color 0.3s ease;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -19,4 +20,10 @@
     border: 1px solid;
     border-radius: 5px;
     padding: 5px 10px;
+    background-color: #ffdee9;
+    color: #111111;
+}
+.btn:hover{
+    background-color: #b0979f;
+
 }

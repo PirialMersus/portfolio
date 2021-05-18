@@ -13,7 +13,7 @@ function Work(props: WorkPropsType) {
         <div className={s.works}>
             <div className={s.imgPlusButton}>
                 <img src={props.imgAddress} alt=""/>
-                <button className={s.btn}>Смотреть</button>
+                <a href="#" className={s.btn}>Смотреть</a>
             </div>
             <h4>{props.projectName}</h4>
             <p>{props.projectDescription}</p>
