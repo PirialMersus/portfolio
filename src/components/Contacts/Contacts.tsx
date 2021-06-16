@@ -13,7 +13,7 @@ function Contacts() {
                         <div>
                             <input className={s.inputs} type="text" name="user"/>
                             <input className={s.inputs} type="password" name="pass"/>
-                            <textarea> </textarea>
+                            <textarea></textarea>
                         </div>
                         <p><input type="submit" value="Отправить"/></p>
                     </form>

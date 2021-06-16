@@ -18,15 +18,29 @@ code {
   list-style: none;
   box-sizing: border-box;
 }
-/*.app:nth-child(2n){*/
-/*  background-color: gold;*/
-/*}*/
-/*.app:nth-child(odd){*/
-/*  background-color: #b0979f;*/
-/*}*/
-.app > div:nth-child(even){
-  background-color: #64a6fd;
+
+.app {
+  overflow: hidden;
+  position: relative;
+  //>div>div:nth-child(even){
+  //  background-color: #64a6fd;
+  //}
+  //>div>div:nth-child(odd){
+  //  background-color: #acf;
+  //}
 }
-.app > div:nth-child(odd){
-  background-color: #acf;
+.app > div > .block{
+  position: absolute;
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
+
+  &:nth-child(3n+2) {
+    background: #444;
+  }
+  &:nth-child(3n+3) {
+    background: #ff9213;
+  }
 }

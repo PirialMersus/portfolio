@@ -1,0 +1,17 @@
+.commonContainerApp {
+  margin: 0 auto;
+  max-width: 700px;
+  >div:nth-child(even){
+    background-color: #64a6fd;
+  }
+  >div:nth-child(odd){
+    background-color: #acf;
+  }
+}
+.btnGenerate{
+  position: absolute;
+  z-index: 2;
+  color: #e30505;
+  background: #64a6fd;
+  margin-left: 100px;
+}
